@@ -19,7 +19,7 @@ def main(job_id, params):
                                         valid_batch_size=32,
 					datasets=['../data/train.data','../data/train.data'],
 					valid_datasets=['../data/valid.data','../data/valid.data'],
-					dictionaries=['../data/train.dataphl','../train.data.pkl'],
+					dictionaries=['../data/train.data.pkl','../data/train.data.pkl'],
                                         validFreq=5000,
                                         dispFreq=100,
                                         saveFreq=5000,
